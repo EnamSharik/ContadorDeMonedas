@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CoinCalculator</id>
+    <version>1.0.0</version>
+    <authors>CoinCalculator</authors>
+    <icon>CalculadoraMonedas.png</icon>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/CalculadoraMonedas.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\Gestor Contable Iglesia\CoinCalculator\CoinCalculator\bin\Debug\net6.0-windows\CoinCalculator.runtimeconfig.json" target="lib\net6.0-windows7.0\CoinCalculator.runtimeconfig.json" />
+    <file src="D:\Gestor Contable Iglesia\CoinCalculator\CoinCalculator\bin\Debug\net6.0-windows\CoinCalculator.dll" target="lib\net6.0-windows7.0\CoinCalculator.dll" />
+    <file src="D:\Gestor Contable Iglesia\CoinCalculator\CoinCalculator\CalculadoraMonedas.ico" target="content\CalculadoraMonedas.ico" />
+    <file src="D:\Gestor Contable Iglesia\CoinCalculator\CoinCalculator\CalculadoraMonedas.ico" target="contentFiles\any\net6.0-windows7.0\CalculadoraMonedas.ico" />
+    <file src="D:\Descargas\CalculadoraMonedas.png" target="\CalculadoraMonedas.png" />
+  </files>
+</package>
